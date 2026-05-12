@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(250, 250, 246);
+    background-color: white;
 }
 
 nav {
@@ -64,7 +64,6 @@ nav ul li a:hover {
 }
 
 #home {
-    background-color: white;
     display: flex;
     justify-content: space-between;
     padding: 3rem;
@@ -100,7 +99,7 @@ main #home .home-left-content i {
     justify-content: space-between;
 }
 .about-left img {
-    width: 24rem;
+    width: 18rem;
     margin-left: 7rem;
     animation: float 4s ease-in-out infinite;
 }
@@ -134,7 +133,8 @@ main #home .home-left-content i {
     margin-top: 1rem;
 }
 .about-right h3 span {
-    color:rgb(0, 162, 255)
+    color:rgb(0, 162, 255);
+    font-size: 23px;
 }
 .about-right .location {
     background-color: rgb(238, 238, 238);
@@ -164,10 +164,11 @@ main #home .home-left-content i {
     margin-right: 10px;
 }
 
-#skills {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-left: 60px;
+.skills-title {
+    padding-left: 5rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 23px;
 }
 #skills i {
     margin-right: 5px;
@@ -178,9 +179,65 @@ main #home .home-left-content i {
 }
 
 #skills ul {
-    margin-top: 50px;
-    list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   gap: 3rem;
+}
+
+.skill-card {
+    background-color: rgb(107, 198, 251);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+.skill-title {
     display: flex;
-    gap: 20rem;
+    align-items: center;
+    gap: 5px;
+}
+.progress-container {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 300px;
+    height: 8px;
+}
+.progress-fill-html {
+    background-color: black;
+    border-radius: 20px;
+    width: 270px;
+    height: 8px;
+}
+.progress-fill-css {
+    background-color: black;
+    border-radius: 20px;
+    width: 250px;
+    height: 8px;
+}
+.progress-fill-js {
+     background-color: black;
+    border-radius: 20px;
+    width: 230px;
+    height: 8px;
+}
+.project-title {
+    margin-top: 100px;
+    padding-left: 5rem;
+    font-size: 23px;
+}
+.project-title i {
+    margin-right: 5px;
+}
+.project-title span {
+    color :rgb(0, 162, 255);
+}
+.project-list {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgba(0, 162, 255, 0.5)
 }
